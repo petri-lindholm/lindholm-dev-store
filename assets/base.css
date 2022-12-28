@@ -2318,6 +2318,9 @@ input[type='checkbox'] {
 }
 
 .header__heading-link .h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-style: italic;
   line-height: 1;
   color: rgba(var(--color-foreground), 0.75);
 }
