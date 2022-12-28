@@ -1,3 +1,5 @@
+console.log('GitHub Integration test')
+
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
