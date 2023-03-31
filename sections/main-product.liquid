@@ -641,6 +641,17 @@
                   {%- endform -%}
                 </product-form>
 
+                <button
+                  class="swym-button swym-add-to-wishlist"
+                  data-with-epi="true"
+                  data-swaction="addToWishlist"
+                  data-product-id="{{ product.id }}"
+                  data-variant-id="{{ product.variants[0].id }}"
+                  data-product-url="{{ shop.url }}{{ product.url }}"
+                >
+                  Wishlist
+                </button>
+
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
                 {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
