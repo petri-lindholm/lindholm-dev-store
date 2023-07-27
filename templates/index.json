@@ -48,6 +48,71 @@
         "show_text_below": false
       }
     },
+    "9142285c-024f-4fec-9e11-e083b5bcefe6": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-text-1",
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-title-1",
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-price-1",
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-variant_picker-1",
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-quantity_selector-1",
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-buy_buttons-1",
+        "template--16615310786802__9142285c-024f-4fec-9e11-e083b5bcefe6-share-1"
+      ],
+      "settings": {
+        "product": "kyro-gin-bundle",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -213,6 +278,7 @@
   },
   "order": [
     "image_banner",
+    "9142285c-024f-4fec-9e11-e083b5bcefe6",
     "rich_text",
     "featured_collection",
     "collage",
